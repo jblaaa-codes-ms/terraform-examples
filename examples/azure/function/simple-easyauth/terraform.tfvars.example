@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# subscription_id and tenant_id default to the jeblanchard dev subscription —
+# override here if you are deploying to a different environment.
+
+subscription_id = "3cbb82c6-dcc1-4a5f-8c1f-0e1c70fc2f34"
+tenant_id       = "e79f2d5f-f212-4f53-8381-68e32b902d32"
+location        = "centralus"
+environment     = "dev"
