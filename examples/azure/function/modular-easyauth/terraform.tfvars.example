@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in values, or use a runtime-specific tfvars file.
+subscription_id = "3cbb82c6-dcc1-4a5f-8c1f-0e1c70fc2f34"
+tenant_id       = "e79f2d5f-f212-4f53-8381-68e32b902d32"
+location        = "centralus"
+environment     = "dev"
+runtime         = "python"   # one of: node, java, dotnet, python, powershell
+# runtime_version = null      # optional: override the default version, e.g. "3.12"

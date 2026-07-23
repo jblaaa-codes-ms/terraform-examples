@@ -1,0 +1,13 @@
+{
+  "name": "func-easyauth-node",
+  "version": "1.0.0",
+  "description": "Azure Functions Node.js hello-world with Easy Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  }
+}

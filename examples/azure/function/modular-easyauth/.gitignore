@@ -1,0 +1,32 @@
+# Terraform state and secrets
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# tfvars may contain secrets — committed runtime-specific files are safe (no credentials)
+*.tfvars
+!node.tfvars
+!java.tfvars
+!dotnet.tfvars
+!python.tfvars
+!powershell.tfvars
+!terraform.tfvars.example
+
+# Deployment artifacts
+*.zip
+*.jar
+publish/
+
+# Function source artifacts
+local.settings.json
+src/node/node_modules/
+src/dotnet/bin/
+src/dotnet/obj/
+src/python/.venv/
+src/python/.python_packages/
+__pycache__/
+*.pyc
+
+# Lock file (committed to pin provider versions)
+# .terraform.lock.hcl
